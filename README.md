@@ -4,13 +4,13 @@ Este README fornece instruções para configurar o ambiente no Google Colab e Ju
 
 ### 1. Pré-requisitos
 
-* **Conexão com a internet:** Você precisará de uma conexão com a internet para baixar o arquivo `dfbruto.csv` e instalar as bibliotecas necessárias.
+* **Conexão com a internet:** Você precisará de uma conexão com a internet para baixar o arquivo `teste_indicium_precificacao.cvs` e instalar as bibliotecas necessárias.
 * **Conta do Google:** Para usar o Google Colab, você precisará de uma conta do Google.
 * **Anaconda ou Miniconda:** Para usar o Jupyter Notebook, você precisará instalar o Anaconda ou Miniconda.
 
 ### 2. Baixando o arquivo `dfbruto.csv`
 
-1. **Faça o download do arquivo:** Clique no seguinte link para baixar o arquivo `dfbruto.csv`: [https://github.com/henriquecm02/Desafio-Ciencia-de-Dados-Lighthouse/blob/main/dfbruto.csv](https://github.com/henriquecm02/LH_CD_HENRIQUE_COUTO_MACHADO/blob/main/dfbruto.csv)
+1. **Faça o download do arquivo:** Clique no seguinte link para baixar o arquivo `teste_indicium_precificacao.cvs`: [https://github.com/henriquecm02/Desafio-Ciencia-de-Dados-Lighthouse/blob/main/dfbruto.csv](https://github.com/henriquecm02/LH_CD_HENRIQUE_COUTO_MACHADO/blob/main/dfbruto.csv)
    
 2. **Salve o arquivo:** Salve o arquivo baixado  em um local acessível no seu computador.
 
