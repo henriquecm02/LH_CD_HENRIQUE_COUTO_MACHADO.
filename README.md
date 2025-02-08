@@ -1,6 +1,6 @@
-## Configurando o Ambiente para Análise Exploratória de Dados e Predição de Notas do IMDb
+## Configurando o Ambiente para Análise Exploratória de Dados e Predição Para Valores de Aluguéis de Apartamentos em Nova Yorque
 
-Este README fornece instruções para configurar o ambiente no Google Colab e Jupyter Notebook, incluindo como baixar e utilizar o arquivo `dfbruto.csv` e os requisitos para executar o código de Análise Exploratória de Dados (EDA) e predição de notas do IMDb.
+Este README fornece instruções para configurar o ambiente no Google Colab e Jupyter Notebook, incluindo como baixar e utilizar o arquivo `teste_indicium_precificacao.cvs` e os requisitos para executar o código de Análise Exploratória de Dados (EDA) e predição.
 
 ### 1. Pré-requisitos
 
@@ -10,7 +10,7 @@ Este README fornece instruções para configurar o ambiente no Google Colab e Ju
 
 ### 2. Baixando o arquivo `dfbruto.csv`
 
-1. **Faça o download do arquivo:** Clique no seguinte link para baixar o arquivo `teste_indicium_precificacao.cvs`: [https://github.com/henriquecm02/Desafio-Ciencia-de-Dados-Lighthouse/blob/main/dfbruto.csv](https://github.com/henriquecm02/LH_CD_HENRIQUE_COUTO_MACHADO/blob/main/dfbruto.csv)
+1. **Faça o download do arquivo:** Clique no seguinte link para baixar o arquivo `teste_indicium_precificacao.cvs`: [https://github.com/henriquecm02/LH_CD_HENRIQUE_COUTO_MACHADO./blob/main/teste_indicium_precificacao.csv](https://github.com/henriquecm02/LH_CD_HENRIQUE_COUTO_MACHADO./blob/main/teste_indicium_precificacao.csv)
    
 2. **Salve o arquivo:** Salve o arquivo baixado  em um local acessível no seu computador.
 
@@ -23,10 +23,10 @@ Este README fornece instruções para configurar o ambiente no Google Colab e Ju
 **Passo 3:** Instale as bibliotecas necessárias:
 
 ```python
-!pip install pandas numpy matplotlib seaborn scikit-learn pickle
+!pip install pandas numpy matplotlib seaborn scikit-learn pickle...
 ```
 
-**Passo 4:** Carregue o arquivo `dfbruto.csv` para o Google Colab:
+**Passo 4:** Carregue o arquivo `teste_indicium_precificacao.cvs` para o Google Colab:
 
 ```python
 from google.colab import files
@@ -36,7 +36,7 @@ uploaded = files.upload()
 **Passo 5:** Substitua o caminho do arquivo no código com o caminho correto para o seu arquivo no Google Colab:
 
 ```python
-df = pd.read_csv('dfbruto.csv', sep=",")
+df = pd.read_csv('teste_indicium_precificacao.cvs', sep=",")
 ```
 
 **Passo 6:** Execute o código de EDA e predição.
@@ -55,7 +55,7 @@ conda activate eda_env
 **Passo 3:** Instale as bibliotecas necessárias:
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn pickle
+pip install pandas numpy matplotlib seaborn scikit-learn pickle...
 ```
 
 **Passo 4:** Crie um novo notebook Jupyter:
@@ -69,15 +69,15 @@ jupyter notebook
 **Passo 6:** Substitua o caminho do arquivo no código com o caminho correto para o seu arquivo no computador:
 
 ```python
-df = pd.read_csv('dfbruto.csv', sep=",")
+df = pd.read_csv('teste_indicium_precificacao.cvs', sep=",")
 ```
 
 **Passo 7:** Execute o código.
 
 ### 5. Executando o código
 
-* Certifique-se de que você tenha o arquivo `dfbruto.csv` no Google Drive ou no diretório local do seu computador.
-* Modifique o caminho para o arquivo `dfbruto.csv` no código para corresponder ao local do seu arquivo.
+* Certifique-se de que você tenha o arquivo `teste_indicium_precificacao.cvs` no Google Drive ou no diretório local do seu computador.
+* Modifique o caminho para o arquivo `teste_indicium_precificacao.cvs` no código para corresponder ao local do seu arquivo.
 * Execute cada célula de código no notebook.
 
 ### 6. Requisitos
@@ -85,14 +85,14 @@ df = pd.read_csv('dfbruto.csv', sep=",")
 ```
 pandas==1.5.3
 numpy==1.24.2
-matplotlib==3.6.2
 seaborn==0.12.2
+matplotlib==3.7.1
+geopandas==0.12.2
+missingno==0.5.2
+wordcloud==1.9.2
+scipy==1.10.1
 scikit-learn==1.2.2
-pickle==5.0
+joblib==1.3.1
+plotly==5.14.1
 ```
 
-### 7. Considerações adicionais
-
-* Este código está configurado para usar o Pandas como a biblioteca principal para manipulação de dados.
-* Você pode usar outras bibliotecas para visualização de dados, como Plotly ou Seaborn.
-* É importante entender o código e as bibliotecas usadas para personalizar a análise conforme necessário.
